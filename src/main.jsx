@@ -11,7 +11,7 @@ import Testimonials from './component/Testimonials.jsx'
 import FAQ from './component/FAQ.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/B13-A6-DigiTools-Platform/">
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/product" element={<Products />} />
