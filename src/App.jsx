@@ -23,7 +23,7 @@ const App = () => {
       <Pricing />
       <section className='bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white py-20'>
         <div className='max-w-6xl mx-auto px-4 text-center'>
-          <h2 className='text-3xl md:text-4xl font-bold'>Ready To Transform Your Workflow?</h2>
+          <h2 className='text-3xl md:text-4xl Font-bold'>Ready To Transform Your Workflow?</h2>
           <p className='mt-4 text-base md:text-lg text-slate-100 max-w-2xl mx-auto'>Join thousands of professionals who are already using Digitools to work smarter. Start your free trial today.</p>
           <div className='mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center sm:items-center'>
             <button className='rounded-full bg-white text-violet-600 font-semibold px-6 py-3 shadow-lg shadow-violet-500/30 transition hover:bg-slate-100'>Explore Products</button>
