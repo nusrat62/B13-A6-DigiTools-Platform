@@ -79,7 +79,7 @@ const MainSection = ({ cart, setCart }) => {
                       </div>
                       <div className='flex flex-col items-start gap-3 md:items-end'>
                         <span className='text-lg font-semibold text-slate-900'>{item.price}/{item.period}</span>
-                        <button onClick={() => removeFromCart(index)} className='rounded-full border border-slate-300 px-4 py-2 text-sm font-semibold text-red-500 hover:bg-slate-100'>Remove</button>
+                        <button onClick={() => removeFromCart(index)} className='rounded-full border border-red-500 px-4 py-2 text-sm font-semibold text-red-500 hover:bg-slate-100'>Remove</button>
                       </div>
                     </div>
                   ))}
