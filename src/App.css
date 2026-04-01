@@ -20,16 +20,18 @@
 .hero {
   position: relative;
 
+
   .base,
   .framework,
   .vite {
     inset-inline: 0;
     margin: 0 auto;
+
   }
 
   .base {
     width: 170px;
-    position: relative;
+    position: absolute;
     z-index: 0;
   }
 
