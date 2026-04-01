@@ -7,7 +7,7 @@ import App from './App.jsx'
 import Products from './component/Products.jsx'
 import Features from './component/Features.jsx'
 import Pricing from './component/Pricing.jsx'
-import Testimonials from './component/Testimonials.jsx'
+import Testimonials from './component/testimonials.jsx'
 import FAQ from './component/FAQ.jsx'
 
 createRoot(document.getElementById('root')).render(
