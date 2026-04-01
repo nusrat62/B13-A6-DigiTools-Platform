@@ -60,7 +60,7 @@ const MainSection = ({ cart, setCart }) => {
                 <div className='flex flex-col gap-4 md:flex-row md:items-center md:justify-between'>
                   <div>
                     <h2 className='text-3xl font-semibold text-slate-900'>Shopping Cart</h2>
-                    <p className='mt-4 text-slate-600'>{cart.length} item{cart.length === 1 ? '' : 's'} added</p>
+                    <p className='mt-2 text-slate-600'>{cart.length} item{cart.length === 1 ? '' : 's'} added</p>
                   </div>
                   <div className='rounded-full border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700'>{cart.length} Items</div>
                 </div>
